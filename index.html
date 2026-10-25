@@ -1,0 +1,158 @@
+  <!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>কলম – ভর্তি পরীক্ষার ইংরেজি রাইটিং</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f4ee;--sf:#fff;--ink:#15212b;--mu:#5c6b73;--ac:#0b6e6e;--ac2:#e6f2f1;--hl:#ffe27a;--rule:#dfe6e8;--bad:#b3261e;--ok:#2e7d32;--wn:#a15c00;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101619;--sf:#192125;--ink:#e8eef0;--mu:#92a3aa;--ac:#5fc9c4;--ac2:#1d3234;--hl:#6b5a14;--rule:#2a363b;--bad:#ff8a80;--ok:#81c784;--wn:#ffb74d}}
+:root[data-theme="dark"]{--bg:#101619;--sf:#192125;--ink:#e8eef0;--mu:#92a3aa;--ac:#5fc9c4;--ac2:#1d3234;--hl:#6b5a14;--rule:#2a363b;--bad:#ff8a80;--ok:#81c784;--wn:#ffb74d}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 "Hind Siliguri",system-ui,sans-serif;max-width:640px;margin:0 auto;padding:0 14px 90px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 0 6px}
+h1{font-size:26px;margin:0;font-weight:700}h1 span{background:var(--hl);padding:0 6px;border-radius:4px}
+.chip{background:var(--ac2);color:var(--ac);border-radius:99px;padding:2px 12px;font-size:14px;font-weight:600}
+.sub{color:var(--mu);margin:0 0 10px;font-size:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.f{border:1px solid var(--rule);background:var(--sf);color:var(--ink);border-radius:99px;padding:5px 14px;font:inherit;font-size:14px;cursor:pointer}
+.f.on{background:var(--ac);color:var(--bg);border-color:var(--ac)}
+.card{background:var(--sf);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;margin:8px 0;display:block;width:100%;text-align:left;color:var(--ink);font:inherit;cursor:pointer}
+.card b{font-family:Lora,Georgia,serif;font-weight:600;font-size:16px;display:block}
+.tag{font-size:12px;color:var(--mu)}.done{color:var(--ok);font-weight:600}
+.btn{background:var(--ac);color:var(--bg);border:0;border-radius:8px;padding:9px 18px;font:inherit;font-weight:600;cursor:pointer}
+.btn.g{background:var(--ac2);color:var(--ac)}
+button:focus-visible,textarea:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.q{font-family:Lora,Georgia,serif;font-size:19px;margin:6px 0;font-weight:600}
+.bn{background:var(--ac2);border-radius:8px;padding:10px 12px;margin:6px 0}
+.tip{border-left:4px solid var(--hl);background:var(--sf);padding:8px 12px;border-radius:0 8px 8px 0;font-size:14px;margin:8px 0}
+textarea{width:100%;min-height:300px;border:1px solid var(--rule);border-radius:8px;padding:2px 12px;font:18px/32px Lora,Georgia,serif;color:var(--ink);resize:vertical;background-color:var(--sf);background-image:repeating-linear-gradient(transparent 0 31px,var(--rule) 31px 32px);background-attachment:local}
+.meta{display:flex;justify-content:space-between;font-size:14px;color:var(--mu);margin:4px 0 8px}
+.res{background:var(--sf);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;margin:10px 0}
+.score{font-size:34px;font-weight:700;color:var(--ac)}
+.res li{margin:4px 0;list-style:none}.res ul{padding:0;margin:6px 0}
+.e{color:var(--bad)}.w{color:var(--wn)}.g{color:var(--ok)}
+nav{position:fixed;left:0;right:0;bottom:0;background:var(--sf);border-top:1px solid var(--rule);display:flex;justify-content:center;gap:0;padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1;max-width:210px;background:none;border:0;padding:12px 0;font:inherit;font-weight:600;color:var(--mu);cursor:pointer}
+nav button.on{color:var(--ac);box-shadow:inset 0 3px var(--ac)}
+details{background:var(--sf);border:1px solid var(--rule);border-radius:10px;padding:8px 14px;margin:8px 0}
+summary{cursor:pointer;font-family:Lora,Georgia,serif;font-weight:600;font-size:17px}
+details input{width:100%;padding:8px 10px;border:1px solid var(--rule);border-radius:8px;font:16px Lora,Georgia,serif;background:var(--bg);color:var(--ink);margin:6px 0}
+.stat{display:grid;grid-template-columns:1fr 1fr;gap:8px}.stat div{background:var(--sf);border:1px solid var(--rule);border-radius:10px;padding:10px 14px}.stat b{font-size:26px;color:var(--ac);display:block}
+nav button{font-size:13px;padding:12px 2px}.aib{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.aib .f{font-weight:600}.fx{border-bottom:1px dashed var(--rule);padding:6px 0}.fx s{color:var(--bad)}.fx b{color:var(--ok)}.imp{font-family:Lora,Georgia,serif;white-space:pre-wrap;background:var(--ac2);border-radius:8px;padding:10px 12px;margin:6px 0}.bar{height:8px;border-radius:4px;background:var(--rule);overflow:hidden}.bar i{display:block;height:100%;background:var(--ac)}input.t,select.t{width:100%;padding:10px;border:1px solid var(--rule);border-radius:8px;font:inherit;background:var(--sf);color:var(--ink)}
+</style>
+</head>
+<body>
+<header><h1><span>কলম</span></h1><div class="chip" id="streak"></div></header>
+<p class="sub">ঢাকা বিশ্ববিদ্যালয় ভর্তি পরীক্ষার ইংরেজি রাইটিং প্র্যাকটিস</p>
+<main id="v"></main>
+<nav><button data-t="w" class="on">✍️ লিখি</button><button data-t="f">🧠 মুক্ত</button><button data-t="x">🎯 পরীক্ষা</button><button data-t="v">📖 শব্দ</button><button data-t="p">📈 অগ্রগতি</button></nav>
+<script>
+const FR={
+p:"কাঠামো: ১) Topic sentence (বিষয়ের পরিচয়) ২) ৫–৭টি বাক্যে কারণ / উদাহরণ / ফলাফল ৩) Concluding sentence। কাজে লাগবে: Firstly, Moreover, For example, As a result, However, In conclusion.",
+r:"কাঠামো (৫ বাক্য): ১) প্রবাদের সহজ অর্থ ২) ব্যাখ্যা ৩) বাস্তব উদাহরণ ৪) গুরুত্ব ৫) শিক্ষা।",
+w:"প্রতিটি শব্দ দিয়ে আলাদা লাইনে একটি করে পূর্ণ বাক্য লিখুন। শব্দটি যে ব্যবহার হয় তার অর্থ বুঝে বাক্য বানান।",
+t:"টিপস: আগে সম্পূর্ণ বাক্যটি বাংলায় ভাবুন, তারপর Subject–Verb–Object সাজান। অতীতের ঘটনা হলে Past Tense ব্যবহার করুন।"};
+const T=[
+{id:1,k:"p",t:"How education can enlighten one’s life",y:"২০২৪-২৫",n:10},
+{id:2,k:"p",t:"The importance of good manners",y:"২০২৩-২৪",n:10},
+{id:3,k:"p",t:"Tertiary Level Education in Bangladesh",y:"২০২২-২৩",n:10},
+{id:4,k:"p",t:"The Impact of Climate Change on Bangladesh",y:"২০২১-২২",n:10},
+{id:5,k:"p",t:"The significance of Bangabandhu’s Historic Speech of 7th March 1971",y:"২০১৯-২০",n:10},
+{id:6,k:"p",t:"Friendship (in 10 sentences)",y:"ইউনিট-D ২০২১-২২",n:10},
+{id:7,k:"p",t:"Your Expectations from a University (in 10 sentences)",y:"ইউনিট-D ২০২০-২১",n:10},
+{id:8,k:"p",t:"Students’ role in social work",y:"ইউনিট-A ২০২৪-২৫",n:10},
+{id:9,k:"p",t:"How to stop animal cruelty",y:"ইউনিট-A ২০২৫-২৬",n:10},
+{id:10,k:"r",t:"Explain the proverb: ‘Don’t judge a book by its cover.’",y:"২০২৪-২৫",n:5},
+{id:11,k:"r",t:"Explain the proverb: ‘Where there is a will, there is a way.’",y:"২০২৩-২৪",n:5},
+{id:12,k:"r",t:"Explain the proverb in your own words: ‘Time once lost cannot be regained.’",y:"ইউনিট-A ২০২৫-২৬",n:5},
+{id:13,k:"r",t:"Explain in 5 sentences: ‘While adolescence is a time of tremendous growth and potential, it is also a time of considerable risks.’",y:"২০২২-২৩",n:5},
+{id:14,k:"w",t:"Write a meaningful sentence with each word",w:["spontaneous","isolation","resourceful","adequate","tolerance"],y:"২০২৩-২৪"},
+{id:15,k:"w",t:"Write a meaningful sentence with each word",w:["noteworthy","generosity","mandatory","performance","endangered"],y:"২০২২-২৩"},
+{id:16,k:"w",t:"Write a meaningful sentence with each word",w:["heritage","empowerment","hospitality","fascination","integrate"],y:"২০১৯-২০"},
+{id:17,k:"w",t:"Write a meaningful sentence with each word",w:["violation","fervently","consequence","appreciate","pleasant"],y:"২০২৪-২৫"},
+{id:18,k:"w",t:"Write a meaningful sentence with each word",w:["superfluous","intrinsic","idiosyncratic","apprehensive"],y:"ইউনিট-A ২০২৩-২৪"},
+{id:19,k:"t",t:"Translate into English",bn:"ব্রজেন দাস ছোটবেলা থেকেই সাঁতারে পারদর্শী ছিলেন। তিনি বুড়িগঙ্গা নদীতে সাঁতারের চর্চা করতেন। তিনি দক্ষিণ এশীয়দের মধ্যে প্রথম ইংলিশ চ্যানেল সাঁতরে অতিক্রম করেন।",y:"ইউনিট-D ২০২০-২১",n:3},
+{id:20,k:"t",t:"Translate into English",bn:"মা আমার সবচেয়ে বড় সমালোচক ছিলেন। তিনি আমার সব সেমিনারে যেতেন। তিনি বলতেন, ‘মনে রেখো মা, তুমি চলে গেলে মানুষ তোমার ব্যবহারটাই মনে রাখবে।’",y:"ইউনিট-D ২০১৯-২০",n:3},
+{id:21,k:"t",t:"Translate into English",bn:"আমাদের সমাজে ছোট ছেলেমেয়েদের আলাদা আলাদা খেলনা দিয়ে থাকি। আমরা ধরে নেই ছেলেরা খেলাধুলা পছন্দ করে। এই মনোভাবের পরিবর্তন দরকার।",y:"ইউনিট-D ২০২১-২২",n:3}];
+const K={p:"প্যারাগ্রাফ",r:"প্রবাদ",w:"শব্দ-বাক্য",t:"অনুবাদ"};
+const W=[["fraudulent","প্রতারণামূলক","Fraudulent claims cost insurers millions."],["fortitude","মনোবল, ধৈর্য","She faced the illness with great fortitude."],["meticulous","অতি সতর্ক, নিখুঁত","He is meticulous about his work."],["spontaneous","স্বতঃস্ফূর্ত","The crowd gave a spontaneous cheer."],["isolation","বিচ্ছিন্নতা","Long isolation made him lonely."],["resourceful","উদ্ভাবনী","A resourceful student finds a way."],["adequate","পর্যাপ্ত","We have adequate time to finish."],["tolerance","সহনশীলতা","Tolerance keeps a society peaceful."],["noteworthy","উল্লেখযোগ্য","Her progress this year is noteworthy."],["generosity","উদারতা","His generosity helped many poor families."],["mandatory","বাধ্যতামূলক","Wearing a helmet is mandatory."],["endangered","বিপন্ন","The tiger is an endangered animal."],["pleasant","মনোরম","It was a pleasant morning."],["marvel","বিস্ময়ে অভিভূত হওয়া","We marvel at the beauty of the Sundarbans."],["vanity","অহমিকা","Vanity ruined his good character."],["eliminate","নির্মূল করা","We must eliminate poverty."],["heritage","ঐতিহ্য","Paharpur is part of our heritage."],["empowerment","ক্ষমতায়ন","Education leads to women’s empowerment."],["hospitality","আতিথেয়তা","Bengalis are famous for their hospitality."],["fascination","মুগ্ধতা","She has a fascination with space."],["integrate","একীভূত করা","Schools should integrate technology into lessons."],["soothing","প্রশান্তিদায়ক","Soothing music helps me sleep."],["grudge","বিদ্বেষ","Do not hold a grudge against anyone."],["bedecked","সজ্জিত","The street was bedecked with flags."],["disintegrate","ভেঙে পড়া","Old paper can disintegrate easily."],["exalted","উচ্চ মর্যাদাসম্পন্ন","He holds an exalted position."],["tranquility","প্রশান্তি","I found tranquility by the river."],["eradicate","সমূলে উৎপাটন করা","We aim to eradicate illiteracy."],["superfluous","অপ্রয়োজনীয়","Delete superfluous words from your essay."],["intrinsic","অন্তর্নিহিত","Honesty has intrinsic value."],["idiosyncratic","স্বতন্ত্র, খামখেয়ালি","He has an idiosyncratic way of teaching."],["apprehensive","শঙ্কিত","I felt apprehensive before the exam."],["violation","লঙ্ঘন","Breaking traffic rules is a violation of law."],["fervently","আন্তরিকভাবে","She fervently supported the movement."],["consequence","পরিণতি","Every action has a consequence."],["appreciate","মূল্য দেওয়া, কৃতজ্ঞ হওয়া","I appreciate your help."]];
+let S={d:{},l:{},h:[],ds:[]},tab="w",flt="all",tm=null;
+try{S=Object.assign(S,JSON.parse(localStorage.getItem("kolom")||"{}"))}catch(e){}
+function sv(){try{localStorage.setItem("kolom",JSON.stringify(S))}catch(e){}}
+const $=s=>document.querySelector(s);
+const E=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const today=()=>new Date().toISOString().slice(0,10);
+function streak(){let n=0,d=new Date();const set=new Set(S.ds);if(!set.has(today()))d.setDate(d.getDate()-1);while(set.has(d.toISOString().slice(0,10))){n++;d.setDate(d.getDate()-1)}return n}
+function mark(){if(!S.ds.includes(today()))S.ds.push(today());sv();head()}
+function head(){$("#streak").textContent="🔥 "+streak()+" দিন"}
+function bn(n){return String(n).replace(/\d/g,d=>"০১২৩৪৫৬৭৮৯"[d])}
+
+function sents(t){return t.trim().split(/(?<=[.!?])\s+|\n+/).map(s=>s.trim()).filter(Boolean)}
+function words(t){return (t.toLowerCase().match(/[a-z’']+/g)||[])}
+function analyze(text,task){
+ const I=[],ss=sents(text),ws=words(text);let sc=100;
+ const add=(l,m,p)=>{I.push({l,m});sc-=p};
+ if(ws.length<3)return{I:[{l:"e",m:"আগে কিছু লিখুন।"}],sc:0,ss,ws};
+ if(task.k==="p"||task.k==="r"||task.k==="t"){
+  const n=task.n||10;
+  if(task.k==="p"&&ss.length<8)add("e","বাক্য কম: "+bn(ss.length)+"টি। ১০টির কাছাকাছি লিখুন।",12);
+  else if(task.k==="r"&&ss.length<5)add("e","বাক্য "+bn(ss.length)+"টি; ৫টি দরকার।",12);
+  else if(task.k==="r"&&ss.length>6)add("w","৫ বাক্যের সীমা পার হয়েছে ("+bn(ss.length)+"টি)।",5);
+  else if(task.k==="t"&&ss.length<n)add("w","মূল লেখায় "+bn(n)+"টি বাক্য আছে; আপনার লেখায় "+bn(ss.length)+"টি।",8);
+  else add("g","বাক্যসংখ্যা ঠিক আছে ("+bn(ss.length)+"টি)।",0);
+ }
+ if(task.k==="w"){
+  task.w.forEach(w=>{const stem=w.slice(0,Math.max(4,w.length-3));const line=ss.find(s=>s.toLowerCase().includes(stem));
+   if(!line)add("e","“"+w+"” দিয়ে বাক্য পাওয়া যায়নি।",14);
+   else if(words(line).length<6)add("w","“"+w+"” এর বাক্যটি খুব ছোট; অর্থ পরিষ্কার হয় এমন বাক্য লিখুন।",5)});
+ }
+ ss.forEach((s,i)=>{
+  if(/^[a-z]/.test(s))add("e","বাক্য "+bn(i+1)+" বড় হাতের অক্ষর দিয়ে শুরু করুন।",4);
+  if(!/[.!?’'”"]$/.test(s))add("e","বাক্য "+bn(i+1)+"-এর শেষে দাঁড়ি (.) নেই।",4);
+  if(words(s).length>32)add("w","বাক্য "+bn(i+1)+" অনেক লম্বা; ভেঙে দুটি করুন।",3)});
+ const rules=[[/\bi\b(?!['’])/,"“i” সবসময় বড় হাতের “I” হবে।"],[/\b(peoples|informations|advices|furnitures|equipments)\b/i,"এই শব্দের plural হয় না (peoples, informations ইত্যাদি ভুল)।"],[/\b(he|she|it) (don[’']t|have|are|were)\b/i,"he/she/it এর পরে doesn’t / has / is / was হবে।"],[/\b(they|we|you|people) (is|was|has|doesn[’']t)\b/i,"they/we/you/people এর সাথে are / were / have / don’t হবে।"],[/\bmore (better|easier|bigger|faster|stronger)\b/i,"“more” এর সাথে আবার -er দেবেন না।"],[/\ba (?!uni|use|usu|eu|one|ubiq)[aeiou]\w*/i,"স্বরধ্বনির আগে “an” হবে (an apple, an idea)।"],[/\ban (?!hour|honest|honou?r|heir)[bcdfgjklmnpqrstvwxz]\w*/i,"ব্যঞ্জনধ্বনির আগে “a” হবে।"],[/\b(\w+) \1\b/i,"একই শব্দ পরপর দুবার লেখা হয়েছে।"],[/\bvery very\b/i,"“very very” এর বদলে একটি জোরালো শব্দ (extremely) ব্যবহার করুন।"],[/\bi am agree\b|\bam agree\b/i,"“I agree” হবে, “am agree” নয়।"],[/\bdiscuss about\b|\bmention about\b|\bemphasize on\b/i,"discuss/mention/emphasize এর পরে preposition লাগে না।"],[/\bmuch people\b|\bmany informations\b/i,"countable শব্দের আগে many/few, uncountable এর আগে much।"]];
+ rules.forEach(([r,m])=>{if(r.test(text))add("e",m,6)});
+ const st={};ss.forEach(s=>{const f=(s.split(/\s+/)[0]||"").toLowerCase();st[f]=(st[f]||0)+1});
+ Object.keys(st).forEach(f=>{if(st[f]>=4&&ss.length>=6)add("w","“"+f+"” দিয়ে "+bn(st[f])+"টি বাক্য শুরু; বৈচিত্র্য আনুন।",4)});
+ if(task.k==="p"){
+  const lk=["firstly","secondly","moreover","furthermore","however","for example","for instance","as a result","therefore","in conclusion","besides","in addition","finally"].filter(x=>text.toLowerCase().includes(x));
+  if(lk.length<3)add("w","linking word কম (Moreover, For example, In conclusion…)। অন্তত ৩টি ব্যবহার করুন।",6);else add("g","ভালো linking word ব্যবহার: "+lk.join(", "),0);
+  if(ws.length<90)add("w","লেখা ছোট ("+bn(ws.length)+" শব্দ)। ১০০–১৫০ শব্দ লক্ষ্য রাখুন।",5);
+  if(!/in conclusion|to conclude|in short|thus|therefore/i.test(ss[ss.length-1]||""))add("w","শেষ বাক্যে উপসংহার টানুন (In conclusion, …).",3);
+ }
+ const uniq=new Set(ws).size/ws.length;if(ws.length>40&&uniq<.5)add("w","শব্দের পুনরাবৃত্তি বেশি; সমার্থক শব্দ ব্যবহার করুন।",5);
+ if(!I.some(x=>x.l==="e"))I.unshift({l:"g",m:"স্পষ্ট ব্যাকরণগত ভুল পাওয়া যায়নি। 👏",});
+ return{I,sc:Math.max(0,Math.min(100,sc)),ss,ws}}
+
+function render(){
+ clearInterval(tm);document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.t===tab));
+ ({w:list,f:free,x:exam,v:wordsV,p:prog})[tab]();head()}
+function list(){
+ const f=["all","p","r","w","t"],nm={all:"সব",...K};
+ $("#v").innerHTML='<div class="row">'+f.map(x=>`<button class="f ${flt===x?"on":""}" data-f="${x}">${nm[x]}</button>`).join("")+'</div>'+
+ T.filter(t=>flt==="all"||t.k===flt).map(t=>`<button class="card" data-id="${t.id}"><span class="tag">${K[t.k]} · DU ${t.y}</span><b>${E(t.k==="w"?t.w.join(", "):t.k==="t"?t.bn.slice(0,60)+"…":t.t)}</b>${S.d[t.id]?'<span class="done">✓ সেভ করা আছে'+(S.d[t.id].sc!=null?" · স্কোর "+bn(S.d[t.id].sc):"")+"</span>":""}</button>`).join("");
+ document.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{flt=b.dataset.f;list()});
+ document.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>edit(+b.dataset.id))}
+function edit(id){
+ const t=T.find(x=>x.id===id),dr=S.d[id]||{},min=t.k==="p"?10:5;let left=min*60,run=false;
+ $("#v").innerHTML=`<button class="f" id="bk">← ফিরে যান</button><div class="tag" style="margin-top:8px">${K[t.k]} · DU ${t.y}</div>
+ <div class="q">${E(t.t)}</div>${t.k==="w"?'<div class="bn" style="font-family:Lora,serif;font-size:18px">'+t.w.join(" · ")+"</div>":""}${t.bn?'<div class="bn">'+E(t.bn)+"</div>":""}
+ <div class="tip">${FR[t.k]}</div>
+ <div class="row" style="align-items:center"><button class="btn g" id="tb">⏱ <span id="tt">${bn(String(min).padStart(2,"0"))}:০০</span> শুরু</button></div>
+ <textarea id="ta" placeholder="${t.k==="w"?"প্রতি লাইনে একটি বাক্য…":"এখানে লিখুন…"}" spellcheck="true" autocapitalize="sentences">${E(dr.text||"")}</textarea>
+ <div class="meta"><span id="wc"></span><span id="sc"></span></div>
+ <div class="row"><button class="btn g" id="ck">⚡ দ্রুত চেক</button><button class="btn g" id="sv">💾 সেভ</button></div><div id="rs"></div>${aiBar()}`;
+ const ta=$("#ta"),cnt=()=>{$("#wc").textContent=bn(words(ta.value).length)+" শব্দ";$("#sc").textContent=bn(sents(ta.value).length)+" বাক্য"};cnt();ta.oninput=cnt;
+ $("#bk").onclick=list;bindAI(()=>(t.k==="w"?"Make one meaningful sentence with each word: "+t.w.join(", "):t.k==="t"?"Translate into English: "+t.bn:t.t),()=>ta.value,t.k);
+ $("#tb").onclick=()=>{if(run){clearInterval(tm);run=false;return}run=true;tm=setInterval(()=>{left--;$("#tt").textContent=bn(String(Math.floor(Math.max(left,0)/60)).padStart(2,"0"))+":"+bn(String(Math.max(left,0)%60).padStart(2,"0"));if(left<=0){clearInterval(tm);$("#tt").textContent="সময় শেষ!"}},1000)};
+ const save=sc=>{S.d[id]={text:ta.value,sc:sc!=null?sc:dr.sc,at:today()};mark()};
+ $("#sv").onclick=()=>{save();$("#rs").innerHTML='<div class="res g">সেভ হয়েছে ✓</div>'};
+ $("#ck").onclick=()=>{const a=analyze(ta.value,t);save(a.sc);S.h.push({id,sc:a.sc,at:today()});sv();
+  $("#rs").innerHTML=`<div class="res"><div class="score">${bn(a.sc)}/১০০</div><ul>${a.I.map(i=>`<li class="${i.l}">${i.l==="g"?"✔":i.l==="e"?"✖":"▲"} ${E(i.m)}</li>`).join("")}</ul><div class="tag">এটি নিয়ম-ভিত্তিক দ্রুত চেক। ভাবের গভীরতা ও শব্দচয়নের জন্য শিক্ষক বা বই দেখুন।</div></div>`}}
+function wordsV(){
+ $("#v").innerHTML='<p class="sub">ভর্তি পরীক্ষায় আসা শব্দ। একটি খুলে নিজে বাক্য লিখে যাচাই করুন।</p><button class="btn" id="rv">🔁 আজকের রিভিশন</button>'+((S.mw||[]).length?'<div class="tip"><b>আমার শব্দ (AI কোচ থেকে)</b>'+S.mw.map(m=>'<div class="fx">'+E(m.e)+' — '+E(m.bn)+'</div>').join('')+'</div>':'')+W.map((w,i)=>`<details><summary>${w[0]} ${S.l[w[0]]?"✓":""}</summary><p><b>${w[1]}</b><br><i style="font-family:Lora,serif">${w[2]}</i></p><input data-i="${i}" placeholder="${w[0]} দিয়ে আপনার বাক্য…"><div class="row"><button class="btn" data-c="${i}">চেক</button><button class="f" data-l="${i}">${S.l[w[0]]?"আবার শিখব":"জানি ✓"}</button></div><div id="r${i}"></div></details>`).join("");
+ document.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{const i=+b.dataset.c,w=W[i][0],v=$(`input[data-i="${i}"]`).value,r=$("#r"+i);
+  if(!v.toLowerCase().includes(w.slice(0,Math.max(4,w.length-3)))){r.innerHTML='<p class="e">বা
